@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora JS</title>
+    <style>
+        .container {
+            border-radius: 20px;
+            padding: 20px;
+            width: 15rem;
+            height: 20rem;
+            margin: 20px 50% 0 40%;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+            background: rgba(128, 128, 128, 0.5);
+            border: transparent;
+        }
+
+        input {
+            margin: 10px 20% 0 10%;
+            padding: 10px;
+            border-radius: 5px;
+            border: transparent;
+            background: whitesmoke;
+            font-size: 14px;
+            text-align: center;
+        }
+
+        button {
+            cursor: pointer;
+            width: 83px;
+            height: 40px;
+            border: transparent;
+            border-radius: 5px;
+            margin: 5px 0 5px 23px;
+            background-color: rgb(151, 151, 245);
+        }
+
+        .btn1:hover {
+            border-radius: 50px;
+            transition: all 3s ease;
+        }
+        .btn1:hover::after {
+            content: " + ";
+            transition: all 3s ease;
+        }
+
+        .btn2:hover {
+            border-radius: 50px;
+            transition: all 3s ease;
+        }
+        .btn2:hover::after {
+            content: " - ";
+            transition: all 3s ease;
+        }
+
+        .btn3:hover {
+            border-radius: 50px;
+            transition: all 3s ease;
+        }
+        .btn3:hover::after {
+            content: " * ";
+            transition: all 3s ease;
+        }
+
+        .btn4:hover {
+            border-radius: 50px;
+            transition: all 3s ease;
+        }
+        .btn4:hover::after {
+            content: " / ";
+            transition: all 3s ease;
+        }
+
+        .btn5 {
+            margin-left: 32%;
+            background-color: rgb(149, 241, 149);
+            transition: all 3s ease;
+        }
+        .btn5:hover {
+            border-radius: 50px;
+            transition: all 3s ease;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="text">
+            <input type="text" name="" id="num1" placeholder="Ingrese el primer número: ">
+            <br>
+            <input type="text" name="" id="num2" placeholder="Ingrese el segundo número: ">
+            <br>
+            <input type="text" name="" id="result"  placeholder="Su resultado: " disabled>
+        </div>
+            <br>
+        <div class="button">
+            <button class="btn1" onclick="sumar()">Sumar</button>
+            <button class="btn2" onclick="restar()">Restar</button>
+            <button class="btn3" onclick="multiplicar()">Multiplicar</button>
+            <button class="btn4" onclick="dividir()">Dividir</button>
+            <button class="btn5" onclick="limpiar()">Limpiar</button>
+        </div>
+    </div>
+    <script src="calculadora.js"></script>
+</body>
+</html>
