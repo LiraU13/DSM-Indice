@@ -1,0 +1,76 @@
+{
+    "oneDarkPro.bold": true,
+    "oneDarkPro.editorTheme": "One Dark Pro Darker",
+    "oneDarkPro.vivid": true,
+    "vscode-edge-devtools.browserFlavor": "Dev",
+    "background.filepath": "c:\\Users\\lirau\\OneDrive\\Escritorio\\wallhaven-vmd68p_1366x768.png",
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "editor.cursorBlinking": "expand",
+    "terminal.integrated.cursorBlinking": true,
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.cursorStyle": "line",
+    "editor.cursorWidth": 2,
+    "editor.hideCursorInOverviewRuler": false,
+    "terminal.integrated.cursorStyle": "underline",
+    "terminal.integrated.cursorWidth": 2,
+    "editor.inlayHints.fontFamily": "Cascadia Code",
+    "editor.fontFamily": "Cascadia Code",
+    "chat.editor.fontFamily": "Cascadia Code",
+    "scm.inputFontFamily": "Cascadia Code",
+    "notebook.output.fontFamily": "Cascadia Code",
+    "terminal.integrated.fontFamily": "Cascadia Code",
+    "editor.inlayHints.fontSize": 0,
+    "editor.fontSize": 14,
+    "chat.editor.fontSize": 14,
+    "editor.tokenColorCustomizations": {
+        
+        "textMateRules": [
+            {
+                "scope": [
+                    "punctuation.definition.string.begin",
+                    "punctuation.definition.string.end"
+                ],
+                "settings": {
+                    "foreground": "#43b4ff"
+                }
+            },
+            {
+                "scope": [
+                    "punctuation.definition.array.begin",
+                    "punctuation.definition.array.end"
+                ],
+                "settings": {
+                    "foreground": "#ff4800"
+                }
+            },
+            {
+                "scope": [
+                    "punctuation.terminator.statement"
+                ],
+                "settings": {
+                    "foreground": "#00ffff"
+                }
+            },
+            {
+                "scope": [
+                "keyword.operator.assignment",
+                "keyword.operator.comparison",
+                "keyword.operator.arithmetic"
+                ],
+                "settings": {
+                "foreground": "#51ff00"
+                }
+            },
+            {
+                "scope": [
+                "comment"
+                ],
+                "settings": {
+                "foreground": "#8b8b8b"
+                }
+            }
+        ]
+    },
+    "liveServer.settings.AdvanceCustomBrowserCmdLine": "C:/Program Files/Firefox Developer Edition/firefox.exe",
+    "liveServer.settings.CustomBrowser": "firefox"
+}
